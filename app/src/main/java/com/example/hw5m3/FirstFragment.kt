@@ -31,11 +31,11 @@ class FirstFragment : Fragment() {
 
     private fun loadData() {
         list = ArrayList()
-        list.add(Model(R.drawable.img,"",""))
-        list.add(Model(R.drawable.img_1,"",""))
-        list.add(Model(R.drawable.img_2,"",""))
-        list.add(Model(R.drawable.img_3,"",""))
-        list.add(Model(R.drawable.img_4,"",""))
+        list.add(Model(R.drawable.img,"Harry Potter III","7.9"))
+        list.add(Model(R.drawable.img_1,"Green Mile","8.6"))
+        list.add(Model(R.drawable.img_2,"Avatar","7.9"))
+        list.add(Model(R.drawable.img_3,"Forrest Gamp","8.8"))
+        list.add(Model(R.drawable.img_4,"The Shawshank Redemption","9.3"))
     }
 
     private fun onClick(pos:Int) {
